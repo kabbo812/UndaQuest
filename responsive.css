@@ -1,0 +1,36 @@
+@media all and (max-width:1200px){
+    .container{
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    .btn-1 {
+        margin-left: 10px;
+    }
+    .banner-btn a {
+        margin: 10px 0;
+    }
+    
+}
+@media all and (max-width:992px){
+    .menu {
+        display: none;
+    }
+    .mobile-menu {
+        display: block !important;
+    }
+    .banner-area {000000000000000000000000000000000000000
+        grid-template-columns: repeat(1,1fr);
+        grid-column-gap: 30px;
+        padding: 80px 0 20px 0;
+    }
+    .left-banner {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .right-banner {
+        margin: 0 auto;
+    }
+}
+@media all and (max-width:767px){}
+@media all and (max-width:575px){}
+@media all and (max-width:480px){}
